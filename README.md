@@ -17,9 +17,15 @@ Please clone this repo and submit a link to the new project's repo along with an
 <em>Please read through ALL the requirements before starting your project</em>
 
 <strong>Below are the design requirements:</strong>
+<em>Sections are labled with with #`<number>` with a raspberry background</em>
 
-  1. Intro section hero slider with text overlay
-  2.
+  1. Full width slider with 3 images and bottom angled at 25 degrees
+  2. Right border square with #2 is a contact modal button see wireframe-modal for styling
+    - This will also be a sticky / fixed button
+  3. Section 3 stylized bullet points
+    - Here we would like to see icons
+  4. Testimonial slider
+  5. Footer has 2 background color with angle
 
 <strong>Below are the technical requirements:</strong>
 
@@ -28,7 +34,11 @@ Please clone this repo and submit a link to the new project's repo along with an
       - We should not be seeing errors when we click on buttons
   3. Understanding of be web dev practices
       - Naming conventions and styling
-  4.     
+  4. Best use of images and assets
+  5. Use of a grid system
+  6. Responsive
+
+As for the technology that you should use its up to you, feel free to use any front end framework, or build in vanilla js. If you do build in a framework we are unfamiliar with we would like to see the website hosted somewhere or details in the readme about how we can go about viewing / building locally.
 
 
 
@@ -36,7 +46,9 @@ Please clone this repo and submit a link to the new project's repo along with an
 
 These required features are some problems that you would face when building a client project and would need to be implemented.
 
-    1.
+    1. Fade In Effect or Slide in effect for checkerboard section
+    2. Subtle animation on the percent numbers
+      - Feel free to set number to different topics
 
 ### Optional Features:
   1. Blah
