@@ -1,0 +1,32 @@
+{
+  "name": "roostergrin-front-end-dev-test",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roostergrin/front-end-dev-test"
+  },
+  "author": "Rooster Grin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roostergrin/front-end-dev-test/issues"
+  },
+  "homepage": "https://github.com/roostergrin/front-end-dev-test",
+  "devDependencies": {
+    "css-loader": "^0.28.5",
+    "node-sass": "^4.5.3",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
