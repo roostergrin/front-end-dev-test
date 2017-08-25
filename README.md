@@ -21,11 +21,13 @@ Please clone this repo and submit a link to the new project's repo along with an
 
   1. Full width slider with 3 images and bottom angled at 25 degrees
   2. Right border square with #2 is a contact modal button see wireframe-modal for styling
-    - This will also be a sticky / fixed button
+      - This will also be a sticky / fixed button
   3. Section 3 stylized bullet points
-    - Here we would like to see icons
+      - Here we would like to see icons
   4. Testimonial slider
   5. Footer has 2 background color with angle
+
+We would like you to use any color schemes. Feel free to add as may animations you would like and any sized image you feel best. You also have some design freedoms to create / use any of the assets provided. Feel free to use any stock images as well. We would also like you to be as creative as you would like. We usually face a lot of ambiguity when developing and designing from
 
 <strong>Below are the technical requirements:</strong>
 
@@ -46,9 +48,9 @@ As for the technology that you should use its up to you, feel free to use any fr
 
 These required features are some problems that you would face when building a client project and would need to be implemented.
 
-    1. Fade In Effect or Slide in effect for checkerboard section
-    2. Subtle animation on the percent numbers
-      - Feel free to set number to different topics
+  1. Fade In Effect or Slide in effect for checkerboard section
+  2. Subtle animation on the percent numbers
+    - Feel free to set number to different topics
 
 ### Optional Features:
   1. Blah
