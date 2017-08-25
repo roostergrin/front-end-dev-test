@@ -1,29 +1,13 @@
 const path = require('path');
 const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-	entry: {
-		main: [
-			path.resolve(__dirname, 'src/app.js'),
-			path.resolve(__dirname, 'styles/main.css')
-		]
-	},
+	entry: './src/app.js',
 
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: '[name].js'
+		filename: 'app.js'
 	},
-
-	plugins: [
-		new HtmlWebpackPlugin({
-			template: 'index.html'
-		}),
-		new ExtractTextPlugin({
-			filename: 'styles/[name].[contenthash].css'
-		})
-	],
 
 	watch: true,
 

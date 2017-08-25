@@ -24,7 +24,7 @@ The goal of this project is to create a client website that has some key feature
 
 Please clone this repo and submit a link to the new project's repo along with any instructions for viewing the final product. It is not required to host this project anywhere, but it would be nice to view your project via a link rather than having to run the build locally.
 
-Your wireframes can be found in the wireframes folder and the assets are in the assets can be found here: <a href="https://www.dropbox.com/sh/2bd0je35gba1gb0/AAC6Px9SU_UPjMWmQlx9on4oa?dl=0">https://www.dropbox.com/sh/2bd0je35gba1gb0/AAC6Px9SU_UPjMWmQlx9on4oa?dl=0</a>
+Your wireframes can be found in the wireframes folder and the assets are in the assets can be found here: 
 
 ## Requirements
 
