@@ -36,14 +36,14 @@ Your wireframes can be found in the wireframes folder and the assets are in the 
   2. Fixed / sticky buttons
   3. Mockups are followed
 
-We would like you to use any color schemes. Feel free to add as may animations you would like and any sized image you feel best. You also have some design freedoms to create / use any of the assets provided. Feel free to use any stock images as well. We would also like you to be as creative as you would like. We usually face a lot of ambiguity when developing and designing from
+We would like you to use any color schemes. Feel free to add as may animations you would like and any sized image you feel best. You also have some design freedoms to create / use any of the assets provided. Feel free to use any stock images as well. We would also like you to be as creative as you would like. We usually face a lot of ambiguity when developing and designing for our clients.
 
 <strong>Below are the technical requirements:</strong>
 
   1. Modular and concise code
   2. Fully functional capabilities of built features
       - We should not be seeing errors when we click on buttons
-  3. Understanding of be web dev practices
+  3. Understanding best practices of web development
       - Naming conventions and styling
   4. Best use of images and assets
   5. Use of a grid system
