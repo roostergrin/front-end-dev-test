@@ -9,14 +9,14 @@ You will need to have knowledge of some key things before you start:
   - how to connect your markup to your scripts and styles
   - front end web development
 
-For this project, we have supplied a server and some development dependencies feel free to use any (you can find these in the package json). You do not have to run the local server but feel free to use it, we have configured a simple one for you. The dev server has hot reloading for your html, styles, and scripts. Commands are pretty simple, if you choose to use our server we supplied you can use the commands below in your terminal:
+For this project, we have supplied a server and some development dependencies feel free to use any (you can find these in the package json). You do not have to run the local server but feel free to use it, we have configured a simple one for you. Commands are pretty simple, if you choose to use our server we supplied you can use the commands below in your terminal:
 
 <pre>
   npm install
   npm start
 </pre>
 
-<em>NOTE: You will need node and npm on your machine if you choose to use the supplied server, also for hosting you will need to set up yourself.</em>
+<em>NOTE: You will need node and npm on your machine if you choose to use the supplied server, also for hosting you will need to set it up yourself.</em>
 
 ## Instructions
 
@@ -24,21 +24,17 @@ The goal of this project is to create a client website that has some key feature
 
 Please clone this repo and submit a link to the new project's repo along with any instructions for viewing the final product. It is not required to host this project anywhere, but it would be nice to view your project via a link rather than having to run the build locally.
 
-Your wireframes can be found in the wireframes folder and the assets are in the assets can be found here: 
+Your wireframes can be found in the wireframes folder and the assets are in the assets can be found here:
 
 ## Requirements
 
 <em>Please read through ALL the requirements before starting your project</em>
 
 <strong>Below are the design requirements:</strong>
-<em>Sections are labled with with #`<number>` with a raspberry background</em>
 
   1. Full width slider with 3 images
-  2. Right border square with #2 is a contact modal button see wireframe-modal for styling
-      - This will also be a sticky / fixed button
-  3. Section 3 stylized bullet points
-      - Here we would like to see icons
-  4. Testimonial slider
+  2. Fixed / sticky buttons
+  3. Mockups are followed
 
 We would like you to use any color schemes. Feel free to add as may animations you would like and any sized image you feel best. You also have some design freedoms to create / use any of the assets provided. Feel free to use any stock images as well. We would also like you to be as creative as you would like. We usually face a lot of ambiguity when developing and designing from
 
@@ -53,9 +49,7 @@ We would like you to use any color schemes. Feel free to add as may animations y
   5. Use of a grid system
   6. Responsive
 
-As for the technology that you should use its up to you, feel free to use any front end framework, or build in vanilla js. If you do build in a framework we are unfamiliar with we would like to see the website hosted somewhere or details in the readme about how we can go about viewing / building locally.
-
-
+As for the technology that you should use its up to you. 😎
 
 ### Required Features:
 
@@ -63,11 +57,10 @@ These required features are some problems that you would face when building a cl
 
   1. Fade In Effect or Slide in effect for checkerboard section
   2. Subtle animation on the percent numbers
-      - Feel free to set the precent numbers to any topics
   3. Fully Functional Site
 
 ### Optional Features:
   1. Use of dev server
   2. Front end framework
   3. Animations
-  4. Dynamic Backend from a CMS
+  4. Dynamic backend from a CMS
