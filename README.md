@@ -16,7 +16,7 @@ For this project, we have supplied a server and some development dependencies fe
   npm start
 </pre>
 
-<em>NOTE: You will need node and npm on your machine if you choose to use the supplied server</em>
+<em>NOTE: You will need node and npm on your machine if you choose to use the supplied server, also for hosting you will need to set up yourself.</em>
 
 ## Instructions
 
@@ -24,6 +24,7 @@ The goal of this project is to create a client website that has some key feature
 
 Please clone this repo and submit a link to the new project's repo along with any instructions for viewing the final product. It is not required to host this project anywhere, but it would be nice to view your project via a link rather than having to run the build locally.
 
+Your wireframes can be found in the wireframes folder and the assets are in the assets can be found here: <a href="https://www.dropbox.com/sh/2bd0je35gba1gb0/AAC6Px9SU_UPjMWmQlx9on4oa?dl=0">https://www.dropbox.com/sh/2bd0je35gba1gb0/AAC6Px9SU_UPjMWmQlx9on4oa?dl=0</a>
 
 ## Requirements
 
@@ -32,7 +33,7 @@ Please clone this repo and submit a link to the new project's repo along with an
 <strong>Below are the design requirements:</strong>
 <em>Sections are labled with with #`<number>` with a raspberry background</em>
 
-  1. Full width slider with 3 images and bottom angled at 25 degrees
+  1. Full width slider with 3 images
   2. Right border square with #2 is a contact modal button see wireframe-modal for styling
       - This will also be a sticky / fixed button
   3. Section 3 stylized bullet points
@@ -63,14 +64,10 @@ These required features are some problems that you would face when building a cl
   1. Fade In Effect or Slide in effect for checkerboard section
   2. Subtle animation on the percent numbers
       - Feel free to set the precent numbers to any topics
+  3. Fully Functional Site
 
 ### Optional Features:
   1. Use of dev server
   2. Front end framework
-  3.
-
-### Icebox Features:
-
-These can be attempted after 2 optional features have been added to your submission.
-  - Something
-  - Custom
+  3. Animations
+  4. Dynamic Backend from a CMS

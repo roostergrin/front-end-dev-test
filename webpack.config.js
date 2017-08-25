@@ -1,9 +1,29 @@
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 module.exports = {
-	entry: './src/app.js',
+	entry: {
+		main: [
+			path.resolve(__dirname, 'src/app.js'),
+			path.resolve(__dirname, 'styles/main.css')
+		]
+	},
 
 	output: {
-		filename: 'bundle.js'
+		path: path.resolve(__dirname, 'dist'),
+		filename: '[name].js'
 	},
+
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: 'index.html'
+		}),
+		new ExtractTextPlugin({
+			filename: 'styles/[name].[contenthash].css'
+		})
+	],
 
 	watch: true,
 
@@ -19,7 +39,7 @@ module.exports = {
         loader: "raw-loader"
       },
 			{
-				test: /\.(scss|sass)$/,
+				test: /\.(css)$/,
 				use: [{
 					loader: 'style-loader'
 				}, {
