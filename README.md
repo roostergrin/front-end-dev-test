@@ -4,7 +4,7 @@
 
 Congratulations on making it to the testing phase of the hiring process! For this part of the hiring process we would like to see your creativity, how well you code, and how well you follow instructions.
 
-Some key things you will need to know before you start is how to run a local server and how to connect your markup to your scripts and styles. For this project we have supplied a server and a promise based HTTP client dependency for you to use. We use axios but feel free if you make it to the api section to use any dependency you want.
+Some key things you will need to know before you start is how to run a local server and how to connect your markup to your scripts and styles. For this project we have only supplied a dev server the rest is up to you.
 
 ## Instructions
 
@@ -50,10 +50,10 @@ These required features are some problems that you would face when building a cl
 
   1. Fade In Effect or Slide in effect for checkerboard section
   2. Subtle animation on the percent numbers
-    - Feel free to set number to different topics
+      - Feel free to set number to different topics
 
 ### Optional Features:
-  1. Blah
+  1.
   2. Blah
 
 ### Icebox Features:
