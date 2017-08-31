@@ -35,6 +35,7 @@ Your wireframes and the assets can be found here: https://www.dropbox.com/sh/h1w
   1. Full width slider with 3 images
   2. Fixed / sticky buttons
   3. Mockups are followed
+  4. Use of Roboto font
 
 We would like you to use any color schemes. Feel free to add as may animations you would like and any sized image you feel best. You also have some design freedoms to create / use any of the assets provided. Feel free to use any stock images as well. We would also like you to be as creative as you would like. We usually face a lot of ambiguity when developing and designing for our clients.
 
