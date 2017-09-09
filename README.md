@@ -37,7 +37,7 @@ Your wireframes and the assets can be found here: https://www.dropbox.com/sh/h1w
   3. Mockups are followed
   4. Use of Roboto font
 
-We would like you to use any color schemes. Feel free to add as may animations you would like and any sized image you feel best. You also have some design freedoms to create / use any of the assets provided. Feel free to use any stock images as well. We would also like you to be as creative as you would like. We usually face a lot of ambiguity when developing and designing for our clients.
+Feel free to add as may animations you would like and any sized image you feel best. You also have some design freedoms to create / use any of the assets provided. Feel free to use any stock images as well. We would also like you to be as creative as you would like. We usually face a lot of ambiguity when developing and designing for our clients so we have left some things up to you to see how you design.
 
 <strong>Below are the technical requirements:</strong>
 
@@ -65,3 +65,11 @@ These required features are some problems that you would face when building a cl
   2. Front end framework
   3. Animations
   4. Dynamic backend from a CMS
+
+### *Please also submit a small write up discussing (leave answers to a sentence or two):*
+
+  1. What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
+  2. Any struggles you faced when developing with technology you chose
+  3. What you enjoyed the most and why
+
+If you have any questions please feel free to email me (Matt) at matt@roostergrin.com
