@@ -6,30 +6,34 @@ module.exports = {
 
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: 'app.js'
+		filename: 'bundle.js'
 	},
-
 	watch: true,
-
 	devServer: {
 		inline: true
 	},
-
 	//Add sass-loader
 	module: {
-		loaders: [
+		rules: [
       {
         test: /\.html$/,
-        loader: "raw-loader"
+        loader: "html-loader"
       },
 			{
-				test: /\.(css)$/,
+				test: /\.(scss)$/,
 				use: [{
 					loader: 'style-loader'
 				}, {
 					loader: 'css-loader'
 				}, {
 					loader: 'sass-loader'
+				}, {
+					loader: 'postcss-loader',
+					options: {
+						plugins: function () {
+							return [ require('autoprefixer')]
+						}
+					}
 				}]
 			}
 		]
