@@ -9,7 +9,7 @@ You will need to have knowledge of some key things before you start:
   - how to connect your markup to your scripts and styles
   - front end web development
 
-For this project, we have supplied an optional server and some development dependencies; feel free to use any (you can find these in the package json). You do not have to run the local server but feel free to use it, we have configured a simple one for you. Commands are pretty simple, if you choose to use our server we supplied you can use the commands below in your terminal:
+We have supplied an optional development server and some development dependencies for this project, but feel free to use the development framework of your choice (e.g. create-react-app, vue cli, etc). You are not required to use the codebase provided in this repository, but feel free to use it! If you choose to use this codebase, you can run the development server using the commands found below:
 
 <pre>
   npm install
