@@ -72,4 +72,4 @@ These required features are some problems that you would face when building a cl
   2. Any struggles you faced when developing with technology you chose
   3. What you enjoyed the most and why
 
-If you have any questions please feel free to email me (Mike) at michael.cheng@roostergrin.com
+If you have any questions please feel free to email me (Matt) at matt.sprague@roostergrin.com
