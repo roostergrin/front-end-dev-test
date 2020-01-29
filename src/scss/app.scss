@@ -28,16 +28,14 @@
 }
 
 /* -------------------- HEADLINE SECTION -------------------- */
-.headline {
-  height: 75vh;
-}
-
-.headline__text-block {
-  min-height: 100%;
-  flex-wrap: wrap;
+.headline_text-block {
+  @include flexCenter(column);
+  align-items: end;
+  height: 67vh;
+  padding: 25px;
 }
 
 .headline__img {
-  min-height: 100%;
   background: url('/src/assets/images/img-1.jpg');
+  height: 67vh;
 }
