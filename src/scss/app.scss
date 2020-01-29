@@ -10,6 +10,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* -------------------- HERO SECTION -------------------- */
@@ -29,6 +30,7 @@
 
 /* -------------------- HEADLINE SECTION -------------------- */
 .headline__text-block {
+  background: white;
   height: 67vh;
   @include flexCenter(column);
   align-items: end;
@@ -46,4 +48,24 @@
   height: 67vh;
   @include flexCenter(column);
   align-items: end;
+}
+
+.about__text-block {
+  background: white;
+  height: 67vh;
+  @include flexCenter(column);
+  align-items: end;
+}
+
+.about__icons {
+  background: whitesmoke;
+  height: 67vh;
+  @include flexCenter(row);
+  img {
+    height: 67px;
+  }
+}
+
+.about__icons__border {
+  border: 1px solid black;
 }
