@@ -1,1 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* -------------------- HERO SECTION -------------------- */
+.hero {
+  background: url("/src/assets/images/hero.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  @include flexCenter(column);
+  h1 {
+    color: white;
+  }
+}
