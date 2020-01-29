@@ -28,14 +28,22 @@
 }
 
 /* -------------------- HEADLINE SECTION -------------------- */
-.headline_text-block {
+.headline__text-block {
+  height: 67vh;
   @include flexCenter(column);
   align-items: end;
-  height: 67vh;
   padding: 25px;
 }
 
 .headline__img {
-  background: url('/src/assets/images/img-1.jpg');
+  background: url("/src/assets/images/img-1.jpg");
   height: 67vh;
+}
+
+/* -------------------- ABOUT SECTION -------------------- */
+.about__header {
+  background: url("/src/assets/images/banner-1.jpg");
+  height: 67vh;
+  @include flexCenter(column);
+  align-items: end;
 }
