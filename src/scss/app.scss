@@ -69,3 +69,14 @@
 .about__icons__border {
   border: 1px solid black;
 }
+
+/* -------------------- TESTIMONIALS SECTION -------------------- */
+.testimonials {
+  background: url("/src/assets/images/banner-2.jpg");
+  height: 67vh;
+}
+
+.testimonials__header {
+  @include flexCenter(column);
+  align-items: end;
+}
