@@ -23,5 +23,21 @@
   @include flexCenter(column);
   h1 {
     color: white;
+    text-align: center;
   }
+}
+
+/* -------------------- HEADLINE SECTION -------------------- */
+.headline {
+  height: 75vh;
+}
+
+.headline__text-block {
+  min-height: 100%;
+  flex-wrap: wrap;
+}
+
+.headline__img {
+  min-height: 100%;
+  background: url('/src/assets/images/img-1.jpg');
 }
