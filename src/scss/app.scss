@@ -38,13 +38,13 @@
 }
 
 .headline__img {
-  background: url("/src/assets/images/img-1.jpg");
+  background: url("/src/assets/images/img-1.jpg") no-repeat center center;
   height: 67vh;
 }
 
 /* -------------------- ABOUT SECTION -------------------- */
 .about__header {
-  background: url("/src/assets/images/banner-1.jpg");
+  background: url("/src/assets/images/banner-1.jpg") no-repeat center center;
   height: 67vh;
   @include flexCenter(column);
   align-items: end;
@@ -72,11 +72,21 @@
 
 /* -------------------- TESTIMONIALS SECTION -------------------- */
 .testimonials {
-  background: url("/src/assets/images/banner-2.jpg");
+  background: url("/src/assets/images/banner-2.jpg") no-repeat center center;
   height: 67vh;
 }
 
 .testimonials__header {
+  height: 67vh;
   @include flexCenter(column);
   align-items: end;
+}
+
+.testimonials__rating {
+  height: 50vh;
+
+}
+
+.testimonials__carousel {
+  height: 50vh;
 }
