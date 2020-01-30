@@ -82,11 +82,51 @@
   align-items: end;
 }
 
-.testimonials__rating {
+.customers__ratings {
   height: 50vh;
+  @include flexCenter(column);
+  align-items: end;
+}
+
+.customers__carousel {
+  height: 50vh;
+  @include flexCenter(column);
+}
+
+.carousel-item {
+  width: 67%;
+}
+
+/* -------------------- FOOTER -------------------- */
+.footer {
+  height: 17vh;
+  background: whitesmoke;
+}
+
+.footer__tag {
+  text-align: center;
+}
+
+.footer__icons--wrapper {
+  @include flexCenter(row);
+}
+
+.footer__icons {
+  width: 50px;
+  margin: 10px;
+}
+
+/* -------------------- BUTTON MODIFIERS -------------------- */
+
+.btn--big {
+  width: 100px;
+  height: 50px;
+}
+
+.btn--primary-color {
 
 }
 
-.testimonials__carousel {
-  height: 50vh;
+.btn--secondary-color {
+  
 }
