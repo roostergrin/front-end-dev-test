@@ -8,19 +8,19 @@
   font-family: "Noto Sans";
 }
 
-@mixin flexCenter($direction) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: $direction;
-}
-
 /* -------------------- VARIABLES -------------------- */
 $small-screen: 700px;
 
 $primary-color: #5A3F71;
 $secondary-color: #EE783A;
 
+/* -------------------- SASS FUNCTIONS -------------------- */
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
 
 /* -------------------- HERO SECTION -------------------- */
 .hero {
@@ -87,7 +87,24 @@ $secondary-color: #EE783A;
   height: 67vh;
   @include flexCenter(column);
   align-items: end;
-  padding: 25px;
+  padding: 50px;
+  max-width: 40vw;
+  margin-left: 10vw;
+  overflow: auto;
+  h3 {
+    color: $primary-color;
+    font-size: 44px;
+    font-weight: 900;
+  };
+  a {
+    color: $primary-color;
+    font-weight: 900;
+  }
+  @media (max-width: $small-screen) {
+    max-width: 100%;
+    margin: 0;
+    padding: 5vw;
+  }
 }
 
 .headline__img {
@@ -170,7 +187,6 @@ $secondary-color: #EE783A;
 }
 
 /* -------------------- BUTTON MODIFIERS -------------------- */
-
 .btn--big {
   width: 150px;
   height: 50px;
