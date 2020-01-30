@@ -1,4 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Noto Sans";
+}
+
 @mixin flexCenter($direction) {
   display: flex;
   justify-content: center;
@@ -6,12 +15,12 @@
   flex-direction: $direction;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
+/* -------------------- VARIABLES -------------------- */
+$small-screen: 700px;
+
+$primary-color: #5A3F71;
+$secondary-color: #EE783A;
+
 
 /* -------------------- HERO SECTION -------------------- */
 .hero {
@@ -25,6 +34,50 @@
   h1 {
     color: white;
     text-align: center;
+  }
+}
+
+.hero__logo {
+  width: 300px;
+  align-self: flex-start;
+  transform: translateY(-160px);
+  @media (max-width: $small-screen) {
+    width: 200px;
+    transform: translateY(-200px)
+  }
+}
+
+.hero__welcome {
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 0.075em;
+  font-size: 72px;
+  color: transparent;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  @media (max-width: $small-screen) {
+    font-size: 48px;
+  }
+}
+
+.hero__rooster-grin {
+  font-weight: 900;
+  letter-spacing: 0.075em;
+  font-size: 72px;
+  @media (max-width: $small-screen) {
+    font-size: 48px;
+  }
+}
+
+.hero__btn {
+  background: #A364CC;
+  border: #A364CC;
+  font-size: 18px;
+  margin-top: 10px;
+  &:hover,
+  &:active,
+  &:focus {
+    background: #D364E3;
+    border: #D364E3;
   }
 }
 
@@ -119,14 +172,18 @@
 /* -------------------- BUTTON MODIFIERS -------------------- */
 
 .btn--big {
-  width: 100px;
+  width: 150px;
   height: 50px;
+  border-radius: 3px;
+  box-shadow: 3px 11px 20px -4px rgba(0, 0, 0, 0.3);
 }
 
 .btn--primary-color {
-
+  background: $primary-color;
+  border: $primary-color;
 }
 
 .btn--secondary-color {
-  
+  background: $secondary-color;
+  border: $secondary-color;
 }

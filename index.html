@@ -3,19 +3,26 @@
 
 <head>
   <meta charset="utf-8" />
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <!-- ANIMATE.CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <title>Rooster Grin Front End Dev Test</title>
 </head>
 
 <body>
   <!-- HERO -->
   <section class="hero">
-    <h1>WELCOME TO</h1>
-    <h1>ROOSTER GRIN</h1>
-    <button class="btn-primary btn--big">CLICKY CLICKY</button>
+    <div class="container">
+      <img src="/src/assets/logos/logo-white.svg" class="hero__logo" alt="Rooster Grin Logo">
+    </div>
+    <h1 class="hero__welcome animated fadeInDown">WELCOME TO</h1>
+    <h1 class="hero__rooster-grin animated fadeInUp">Rooster Grin</h1>
+    <a href="#headline"><button class="btn-primary btn--big hero__btn animated fadeInUp">EXPLORE</button></a>
   </section>
 
   <!-- HEADLINE -->
-  <section class="headline container-fluid">
+  <section class="headline container-fluid" id="headline">
     <div class="row">
       <div class="headline__text-block col-12 col-md-6 ">
         <h3>LOREM IPSUM</h3>
@@ -35,7 +42,7 @@
     <div class="row">
       <div class="about__header col-12">
         <h3>LOREM IPSUM</h3>
-        <a href="#about__text-block"><button class="btn-primary">CLICKY CLICKY</button></a>
+        <a href="#about__text-block"><button class="btn-primary btn--big btn--secondary-color">ABOUT US</button></a>
       </div>
       <div class="about__text-block col-12 col-md-6" id="about__text-block">
         <h3>LOREM IPSUM DOLOR SIT AMET</h3>
@@ -81,12 +88,12 @@
         <h3>LOREM IPSUM</h3>
         <p>Kogi chambray portland tbh organic. Pok pok tumblr banh mi green juice neutra cred bitters street art
           jianbing tilde direct trade keffiyeh williamsburg. Meditation deep v asymmetrical DIY listicle wayfarers.</p>
-        <a href="#about__text-block"><button class="btn-primary">CLICKY CLICKY</button></a>
+        <a href="#customers"><button class="btn-primary btn--big btn--secondary-color">TESTIMONIALS</button></a>
       </div>
     </div>
   </section>
 
-  <section class="customers">
+  <section class="customers" id="customers">
     <div class="row">
       <div class="customers__ratings col-12 col-md-6">
         <h3>LOREM IPSUM</h3>
