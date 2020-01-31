@@ -73,6 +73,7 @@ $secondary-color: #EE783A;
   border: #A364CC;
   font-size: 18px;
   margin-top: 10px;
+  transition: 0.2s ease;
   &:hover,
   &:active,
   &:focus {
@@ -279,8 +280,12 @@ $secondary-color: #EE783A;
   @media (max-width: $small-screen) {
     max-width: 100vw;
     margin: 0;
-    padding: 5vw;
+    padding: 10vw;
   }
+}
+
+.fa-star{
+  color: $secondary-color;
 }
 
 .customers__carousel {
@@ -302,16 +307,11 @@ $secondary-color: #EE783A;
   }
 }
 
-.carousel__content {
-  width: 100%;
-}
-
-.slick-prev:before, .slick-next:before { 
-  color: $primary-color !important;
-}
-
 .carousel {
   width: 100%;
+  p {
+    margin: 0;
+  }
   @media (max-width: $small-screen) {
     max-width: 100vw;
     margin: 0;
@@ -319,14 +319,24 @@ $secondary-color: #EE783A;
   }
 }
 
+.carousel__content {
+  width: 100%;
+}
+
+.slick-prev:before, .slick-next:before { 
+  color: $primary-color;
+}
+
 /* -------------------- FOOTER -------------------- */
 .footer {
   height: 17vh;
   background: whitesmoke;
+  @include flexCenter(column);
 }
 
 .footer__tag {
   text-align: center;
+  font-weight: 900;
 }
 
 .footer__icons--wrapper {
@@ -336,6 +346,7 @@ $secondary-color: #EE783A;
 .footer__icons {
   width: 50px;
   margin: 10px;
+  stroke: $primary-color;
 }
 
 /* -------------------- BUTTON STYLE MODIFIERS -------------------- */
@@ -346,14 +357,10 @@ $secondary-color: #EE783A;
   box-shadow: 3px 11px 20px -4px rgba(0, 0, 0, 0.3);
 }
 
-.btn--primary-color {
-  background: $primary-color;
-  border: $primary-color;
-}
-
 .btn--secondary-color {
   background: $secondary-color;
   border: $secondary-color;
+  transition: 0.2s ease;
   &:hover,
   &:active,
   &:focus {
