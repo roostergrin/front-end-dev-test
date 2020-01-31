@@ -7,6 +7,10 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
   <!-- ANIMATE.CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- SLICK.CSS -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
   <title>Rooster Grin Front End Dev Test</title>
 </head>
 
@@ -91,10 +95,13 @@
     <div class="row">
       <div class="col-12 col-md-6"></div>
       <div class="testimonials__header col-12 col-md-6">
-        <h3>LOREM IPSUM</h3>
-        <p>Kogi chambray portland tbh organic. Pok pok tumblr banh mi green juice neutra cred bitters street art
-          jianbing tilde direct trade keffiyeh williamsburg. Meditation deep v asymmetrical DIY listicle wayfarers.</p>
-        <a href="#customers"><button class="btn-primary btn--big btn--secondary-color">TESTIMONIALS</button></a>
+        <div class="testimonials__header__background">
+          <h3>LOREM IPSUM</h3>
+          <p>Kogi chambray portland tbh organic. Pok pok tumblr banh mi green juice neutra cred bitters street art
+            jianbing tilde direct trade keffiyeh williamsburg. Meditation deep v asymmetrical DIY listicle wayfarers.
+          </p>
+          <a href="#customers"><button class="btn-primary btn--big btn--secondary-color">TESTIMONIALS</button></a>
+        </div>
       </div>
     </div>
   </section>
@@ -102,52 +109,40 @@
   <section class="customers" id="customers">
     <div class="row">
       <div class="customers__ratings col-12 col-md-6">
-        <h3>LOREM IPSUM</h3>
+        <h3>LOREM IPSUM DOLOR SIT AMET</h3>
         <h4>*****</h4>
       </div>
-      <!-- CAROUSEL -->
       <div class="customers__carousel col-12 col-md-6">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <h5>Dwight Schrute</h5>
-              <p>Wolf selfies tousled man braid semiotics banh mi. Drinking vinegar glossier banjo pabst. Affogato
-                drinking vinegar direct trade, wayfarers you probably haven't heard of them hell of farm-to-table cliche
-                shoreditch edison bulb. Wolf cliche typewriter selfies truffaut small batch tote bag tousled. Distillery
-                small batch cronut iPhone woke. Everyday carry retro YOLO gentrify offal. Roof party kale chips meh,
-                heirloom banh mi farm-to-table narwhal vice tbh artisan.</p>
-            </div>
-            <div class="carousel-item">
+        <div class="carousel">
+          <div class="slick">
+            <div>
               <h5>Creed Bratton</h5>
-              <p>Blog vape raclette meggings selvage kale chips XOXO lyft. Meditation viral sustainable disrupt artisan
-                squid fashion axe man braid fanny pack YOLO, humblebrag 8-bit meh. Austin 90's 3 wolf moon gentrify
-                migas pop-up everyday carry art party master cleanse shaman portland ethical waistcoat poke photo booth.
-                Lyft prism blue bottle poke, PBR&B synth yr fanny pack poutine drinking vinegar tumeric adaptogen.
-                Succulents snackwave four dollar toast blog. Meh jean shorts bushwick drinking vinegar.</p>
+              <p>Wolf selfies tousled man braid semiotics banh mi. Drinking vinegar glossier banjo pabst. Affogato
+                drinking vinegar direct trade, wayfarers you probably haven't heard of them hell of farm-to-table
+                cliche
+                shoreditch edison bulb. Wolf cliche typewriter selfies truffaut small batch tote bag tousled.
+                Distillery
+                small batch cronut iPhone woke.</p>
             </div>
-            <div class="carousel-item">
+            <div>
+              <h5>Dwight Schrute</h5>
+              <p>Blog vape raclette meggings selvage kale chips XOXO lyft. Meditation viral sustainable disrupt
+                artisan
+                squid fashion axe man braid fanny pack YOLO, humblebrag 8-bit meh. Austin 90's 3 wolf moon gentrify
+                migas pop-up everyday carry art party master cleanse shaman portland ethical waistcoat poke photo
+                booth.
+              </p>
+            </div>
+            <div>
               <h5>Michael Scott</h5>
               <p>Asymmetrical poutine vaporware, tofu bicycle rights butcher thundercats live-edge affogato gastropub
                 master cleanse. Vexillologist hot chicken locavore bushwick venmo snackwave glossier. Banjo shoreditch
                 direct trade, pug letterpress art party next level XOXO ugh vegan cold-pressed fanny pack poke man
-                braid. Wayfarers brunch glossier gentrify activated charcoal. Street art fashion axe bitters, artisan
-                fanny pack banjo stumptown disrupt.</p>
+                braid.
+              </p>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </div>
   </section>
@@ -164,6 +159,12 @@
     </div>
   </footer>
 
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- SLICK JS -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <script type="text/javascript" src="bundle.js"></script>
 </body>
 

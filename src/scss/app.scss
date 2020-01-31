@@ -124,7 +124,7 @@ $secondary-color: #EE783A;
 .about__btn {
   padding: 45px;
   max-width: 40vw;
-  margin-left: 10vw;
+  margin-left: 11vw;
   h3 {
     color: $primary-color;
     font-size: 44px;
@@ -211,7 +211,7 @@ $secondary-color: #EE783A;
   padding: 10px;
   height: 100px;
   width: 100px;
-  box-shadow: 3px 11px 20px -4px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 8px 20px -4px rgba(0, 0, 0, 0.3);
   transition: 0.2s ease;
   &:hover {
     transform: scale(1.075);
@@ -238,21 +238,85 @@ $secondary-color: #EE783A;
   height: 67vh;
   @include flexCenter(column);
   align-items: end;
+  padding: 60px;
+  max-width: 50vw;
+  padding-right: 15vw;
+  overflow: auto;
+  h3 {
+    color: $primary-color;
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  @media (max-width: $small-screen) {
+    max-width: 100vw;
+    margin: 0;
+    padding: 5vw;
+  }
+}
+
+.testimonials__header__background {
+  @media (max-width: $small-screen) {
+    background: whitesmoke;
+    padding: 25px;
+  }
 }
 
 .customers__ratings {
   height: 50vh;
   @include flexCenter(column);
   align-items: end;
+  padding: 60px;
+  min-width: 50vw;
+  padding-left: 15vw;
+  background: white;
+  h3 {
+    color: $primary-color;
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  @media (max-width: $small-screen) {
+    max-width: 100vw;
+    margin: 0;
+    padding: 5vw;
+  }
 }
 
 .customers__carousel {
   height: 50vh;
   @include flexCenter(column);
+  padding: 60px;
+  min-width: 50vw;
+  padding-right: 15vw;
+  background: white;
+  h5 {
+    color: $primary-color;
+    text-align: center;
+    font-weight: 900;
+  }
+  @media (max-width: $small-screen) {
+    min-width: 100vw;
+    margin: 0;
+    padding: 5vw;
+  }
 }
 
-.carousel-item {
-  width: 67%;
+.carousel__content {
+  width: 100%;
+}
+
+.slick-prev:before, .slick-next:before { 
+  color: $primary-color !important;
+}
+
+.carousel {
+  width: 100%;
+  @media (max-width: $small-screen) {
+    max-width: 100vw;
+    margin: 0;
+    padding: 5vw;
+  }
 }
 
 /* -------------------- FOOTER -------------------- */
