@@ -176,7 +176,7 @@ $secondary-color: #EE783A;
   padding: 60px;
   max-width: 50vw;
   padding-right: 15vw;
-  overflow: auto;
+  overflow: none;
   h3 {
     color: $primary-color;
     font-size: 44px;
@@ -202,6 +202,7 @@ $secondary-color: #EE783A;
     margin-top: 15px;
     font-weight: 900;
     letter-spacing: 0.05em;
+    text-align: center;
   }
 }
 

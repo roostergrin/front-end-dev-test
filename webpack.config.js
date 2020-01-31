@@ -19,25 +19,6 @@ module.exports = {
         test: /\.html$/,
         loader: "html-loader"
       },
-      // {
-      //   test: /\.(jpe?g|png|gif|woff|woff2|eot|ttf|svg)(\?[a-z0-9=.]+)?$/,
-      //   loader: "url-loader?limit=100000",
-      //   options: {
-      //     esModule: false
-      //   }
-      // },
-      // {
-      //   test: /\.(jpg|jpeg|gif|png|woff|woff2)$/,
-      //   use: [
-      //     {
-      //       loader: "file-loader",
-      //       options: {
-      //         name: "[path][name].[ext]",
-      //         esModule: false
-      //       }
-      //     }
-      //   ]
-      // },
       {
         test: /\.(scss)$/,
         use: [
@@ -53,7 +34,7 @@ module.exports = {
           {
             loader: "postcss-loader",
             options: {
-              plugins: function() {
+              plugins: function () {
                 return [require("autoprefixer")];
               }
             }
