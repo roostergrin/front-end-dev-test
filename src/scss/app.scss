@@ -1,4 +1,4 @@
-@import "~bootstrap/scss/bootstrap";
+
 
 * {
   padding: 0;
@@ -24,7 +24,7 @@ $secondary-color: #EE783A;
 
 /* -------------------- HERO SECTION -------------------- */
 .hero {
-  background: url("/src/assets/images/hero.jpg") no-repeat center center fixed;
+  background: url("../assets/images/hero.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -110,13 +110,13 @@ $secondary-color: #EE783A;
 }
 
 .headline__img {
-  background: url("/src/assets/images/img-1.jpg") no-repeat center center;
+  background: url("../assets/images/img-1.jpg") no-repeat center center;
   height: 67vh;
 }
 
 /* -------------------- ABOUT SECTION -------------------- */
 .about__header {
-  background: url("/src/assets/images/banner-1.jpg") no-repeat center center;
+  background: url("../assets/images/banner-1.jpg") no-repeat center center;
   height: 67vh;
   @include flexCenter(column);
   align-items: end;
@@ -232,7 +232,7 @@ $secondary-color: #EE783A;
 
 /* -------------------- TESTIMONIALS SECTION -------------------- */
 .testimonials {
-  background: url("/src/assets/images/banner-2.jpg") no-repeat center center;
+  background: url("../assets/images/banner-2.jpg") no-repeat center center;
   height: 67vh;
 }
 
