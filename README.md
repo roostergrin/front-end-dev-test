@@ -2,7 +2,7 @@
 
 ## Intro
 
-Congratulations on making it to the testing phase of the hiring process! For this part of the hiring process, we would like to learn about your creativity, how well you code, and how well you follow instructions.
+Congratulations on making it to the testing phase of the hiring process! For this part, we would like to learn about your creativity, how well you code, and how well you follow instructions.
 
 You will need to have knowledge of some key things before you start:
   - how to run a local server
@@ -54,17 +54,16 @@ As for the technology that you should use its up to you. 😎
 
 ### Required Features:
 
-These required features are some problems that you would face when building a client project and would need to be implemented.
+These required features are requested specifically by the client and should be implemented.
 
   1. Fade In Effect for the hero title
   2. Subtle animation on the four icons
   3. Fully Functional Site
 
-### Optional Features:
+### Bonus (optional) Features:
   1. Use of dev server
   2. Front end framework
-  3. Additional Animations
-  4. Dynamic backend from a CMS
+  3. Dynamic backend from a CMS
 
 ### *Please also submit a small write up discussing (leave answers to a sentence or two):*
 
