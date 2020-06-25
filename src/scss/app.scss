@@ -55,9 +55,17 @@
     background-size: cover;
 }
 
+// generic banner styling
 .roosterBanner {
-    background: url(/front-end-dev-test-assets/banner-1.jpg) no-repeat;
     height: 600px;
+}
+
+.roosterBanner1 {
+    background: url(/front-end-dev-test-assets/banner-1.jpg) no-repeat;
+    background-size: cover;
+}
+.roosterBanner2 {
+    background: url(/front-end-dev-test-assets/banner-2.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -77,4 +85,10 @@ img {
 .roosterGroupIcons {
     background-color: #FAFAFA;
     padding: 10%
+}
+
+footer, img {
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 0;
 }
