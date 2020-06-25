@@ -3,8 +3,22 @@
 .container {
     display: grid;
     width: 100%;
-
 }
+#welcomeTitle {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 56px;
+    text-align: center;
+    animation: fadeIn ease 5s;
+}
+
+.welcomeRooster {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 6px;
+    font-size: 50px;
+    text-align: center;
+    animation: fadeIn ease 10s;
+}
+
 .welcomeBackground {
     background: url(/front-end-dev-test-assets/hero.jpg) no-repeat;
     height: 750px;
@@ -22,14 +36,19 @@
     height: 55px;
     width: 172px;
     border: none;
-   color: white;
- 
+    color: white;
+}
+.roosterButton{
+    height: 55px;
+    width: 172px;
+    border: none;
+    color: white;
 }
 
-#welcomeButton {
+#welcomeButton:hover {
     background-color: purple;
-    align-items: center;
-  
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 // generic title paragraph styling
@@ -38,9 +57,10 @@
 }
 
 // generic description styling
-.roosterDescriptionParagraph {
+.roosterDescriptionTitle {
     padding-bottom: 5%;
     color: purple;
+    font-family: 'Raleway', sans-serif;
 }
 
 // generic direct link
@@ -74,7 +94,7 @@
     color: white;
 }
 
-img {
+.roosterIcon img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -82,13 +102,66 @@ img {
     padding: 20px;
 }
 
+.roosterIcon img:hover {
+    opacity: 50%;
+}
+
 .roosterGroupIcons {
     background-color: #FAFAFA;
     padding: 10%
 }
 
-footer, img {
+.roosterIcon p {
+    text-align: center;
+}
+
+.carousel-indicators, #carouselMain{
+    color:red;
+    margin: 15%;
+}
+
+.carousel-indicators li{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:purple;
+  padding: 100%;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: purple;
+}
+
+.carousel-item h5 {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.followUs p {
+    text-align: center;
+}
+
+.followUs img {
     background-color: #FAFAFA;
     border: none;
     border-radius: 0;
+    height: 60px;
+    padding: 3%
 }

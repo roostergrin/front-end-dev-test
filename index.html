@@ -5,6 +5,15 @@
   <meta charset="utf-8">
   <title>Rooster Grin Front End Dev Test</title>
   <link rel="stylesheet" href="app.scss">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Raleway&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="bundle.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+
 </head>
 
 <body>
@@ -14,16 +23,16 @@
     <div class="row logoPadding">
       <div class="col-1"></div>
       <div class="col-3 ">
-        <h1>RoosterGrin</h1>
+        <h1 id="welcomeTitle">RoosterGrin</h1>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-5"></div>
-      <div class="col-2">
-        <h1>WELCOME TO</h1>
-        <h1>Rooster Grin</h1>
-        <div class="col-5"></div>
+      <div class="col-4"></div>
+      <div class="col-4">
+        <h1 id="welcomeTitle">WELCOME TO</h1>
+        <h1 class="welcomeRooster">Rooster Grin</h1>
+        <div class="col-4"></div>
       </div>
     </div>
 
@@ -46,7 +55,7 @@
 
       <div class="col-6 roosterTitleParagraph">
 
-        <h1 class="roosterDescriptionParagraph">LOREM IPSUM</h1>
+        <h1 class="roosterDescriptionTitle">LOREM IPSUM</h1>
 
         <p>Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna est sociis, neque in odio vel, sit
           lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam
@@ -69,7 +78,7 @@
 
         <div class="col-6 roosterTitleParagraph">
 
-          <h1 class="roosterDescriptionParagraph">LOREM IPSUM</h1>
+          <h1 class="roosterDescriptionTitle">LOREM IPSUM</h1>
           <button class="roosterButton" id="bannerButton">BUTTON BUTTON</button>
 
         </div>
@@ -85,7 +94,7 @@
 
       <div class="col-6 roosterTitleParagraph">
 
-        <h1 class="roosterDescriptionParagraph">LOREM IPSUM</h1>
+        <h1 class="roosterDescriptionTitle">LOREM IPSUM</h1>
         <p>Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna est sociis, neque in odio vel, sit
           lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec.
           Quam
@@ -123,23 +132,23 @@
 
   <!-- Section 5 -->
   <div class="container-fluid">
-    <div class="row roosterBanner">
-      <div class="col-12 roosterBanner2">
-        <div class="col-6"></div>
-        <div class="col-6">
-          <div class="roosterTitleParagraph">
+    <div class="row roosterBanner roosterBanner2">
 
-            <h1 class="roosterDescriptionParagraph">LOREM IPSUM</h1>
+      <div class="col-6"></div>
+      <div class="col-6">
+        <div class="roosterTitleParagraph">
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nostrum, nam ratione aperiam illum
-              fugiat. Sit vitae deleniti error modi itaque consectetur consequuntur repellendus alias. Aperiam deserunt
-              nesciunt quasi eaque.</p>
+          <h1 class="roosterDescriptionTitle">LOREM IPSUM</h1>
 
-            <button class="roosterButton" id="bannerButton">BUTTON BUTTON</button>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nostrum, nam ratione aperiam illum
+            fugiat. Sit vitae deleniti error modi itaque consectetur consequuntur repellendus alias. Aperiam deserunt
+            nesciunt quasi eaque.</p>
 
-          </div>
+          <button class="roosterButton" id="bannerButton">BUTTON BUTTON</button>
+
         </div>
       </div>
+
     </div>
   </div>
 
@@ -150,7 +159,7 @@
 
       <div class="col-6 roosterTitleParagraph">
 
-        <h1 class="roosterDescriptionParagraph">LOREM IPSUM DOLOR SIT AMET</h1>
+        <h1 class="roosterDescriptionTitle">LOREM IPSUM DOLOR SIT AMET</h1>
 
         <!-- SVG code from Sketch -->
         <?xml version="1.0" encoding="UTF-8"?>
@@ -183,41 +192,71 @@
       </div>
 
       <div class="col-6">
-        <div class="carousel slide" data-ride="carousel">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nam praesentium officia nemo, consequatur
-            repellat dolores explicabo cumque cupiditate. Perspiciatis dignissimos quidem autem consequatur deserunt
-            provident numquam illo repellendus cupiditate?</p>
+
+        <!-- main carousel -->
+
+        <div id="carouselMain" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselMain" data-slide-to="1"></li>
+            <li data-target="#carouselMain" data-slide-to="2"></li>
+          </ol>
+
+          <!-- carousel content slides -->
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h5>John Doe 08/08/2019</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nam praesentium officia nemo, consequatur
+                repellat dolores explicabo cumque cupiditate. Perspiciatis dignissimos quidem autem consequatur deserunt
+                provident numquam illo repellendus cupiditate?</p>
+            </div>
+            <div class="carousel-item">
+              <h5>Popcorn Mackey 08/08/2019</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nam praesentium officia nemo, consequatur
+                repellat dolores explicabo cumque cupiditate. Perspiciatis dignissimos quidem autem consequatur deserunt
+                provident numquam illo repellendus cupiditate?</p>
+            </div>
+            <div class="carousel-item">
+              <h5>Milo Mackey 08/08/2019</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nam praesentium officia nemo, consequatur
+                repellat dolores explicabo cumque cupiditate. Perspiciatis dignissimos quidem autem consequatur deserunt
+                provident numquam illo repellendus cupiditate?</p>
+            </div>
+          </div>
+
+          <!-- carousel buttons (left and right arrow) -->
+
+          <a class="carousel-control-prev " href="#carouselMain" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr_only"> </span>
+          </a>
+
+          <a class="carousel-control-next" href="#carouselMain" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr_only"> </span>
+          </a>
         </div>
-
       </div>
-
-
     </div>
+  </div>
 
-    <footer class="container-fluid">
-      <div class="row">
+  <footer class="container-fluid">
+    <div class="row">
 
+      <div class="col-5"></div>
+      <p>Follow Us:</p>
+      <div class="col-2 followUs">
+
+        <a href="http://www.instagram.com">
+          <img src="/front-end-dev-test-assets/instagram.svg" alt="Visit us at Instagram"></a>
+
+        <a href="http://www.facebook.com"><img src="/front-end-dev-test-assets/facebook.svg"
+            alt="Visit us at Facebook"></a>
         <div class="col-5"></div>
-        <div class="col-2">
-          <p>Follow Us:</p>
-          <img src="/front-end-dev-test-assets/instagram.svg" alt="Visit us at Instagram">
-          <img src="/front-end-dev-test-assets/facebook.svg" alt="Visit us at Facebook">
-          <div class="col-5"></div>
-        </div>
       </div>
-
-    </footer>
-
-    <script type="text/javascript" src="bundle.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+    </div>
+  </footer>
 </body>
 
 </html>
