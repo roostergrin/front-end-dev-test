@@ -1,1 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
+
+.container {
+    display: grid;
+
+}
+.welcomeSection {
+    background: url(/front-end-dev-test-assets/hero.jpg) no-repeat;
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+}
+
+.logoPadding {
+    height:50%;
+    padding-top: 1%;
+}
+// generic button styles
+.roosterButton {
+    height: 55px;
+    width: 172px;
+}
+
+#welcomeButton {
+    background-color: purple;
+    align-items: center;
+    color: white;
+
+}
