@@ -37,7 +37,7 @@ p {
 }
 
 // generic button styles
-.roosterButton {
+.roosterButton{
     height: 55px;
     width: 172px;
     border: none;
@@ -89,7 +89,7 @@ p {
     height: 600px;
 }
 
-.section3Banner {
+.section3Banner{
     background: url(/front-end-dev-test-assets/banner-1.jpg) no-repeat;
     background-size: cover;
 }
@@ -109,8 +109,7 @@ p {
     padding-left: 5%;
 }
 
-#section5Title,
-#section3Title {
+#section5Title, #section3Title {
     font-size: 2.5rem;
 }
 
@@ -129,9 +128,24 @@ p {
     border-radius: 50%;
     padding-top: 3%;
     display: inline-block;
-
+ 
+}
+.roosterIcon:hover {
+    border-radius: 250px 750px 250px 750px /
+    750px 250px 750px 250px;
+    animation: wobble 1s ease-in-out alternate infinite
 }
 
+@keyframes wobble {
+    50% {
+        border-radius:750px 550px 350px 750px /
+        350px 750px 550px 450px;
+    }
+    100% {
+        border-radius: 750px 250px 750px 250px /
+        250px 750px 250px 750px;
+    }
+}
 .roosterIconContainer p {
     margin-top: 6%;
     font-size: 18px;
@@ -143,27 +157,13 @@ p {
     margin-top: 10%;
     margin-left: 4%;
     display: inline-block;
-    animation-duration: 2s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-
 }
 
-@keyframes slidein {
-    from {
-        width: 0%;
-    }
-
-    to {
-        width: 100%;
-    }
+.roosterIconContainer{
+text-align: center;
 }
 
-.roosterIconContainer {
-    text-align: center;
-}
-
-.roosterIcon img:hover {
+.roosterIcon:hover img {
     opacity: 50%;
 }
 
@@ -182,21 +182,21 @@ p {
     padding-top: 5%;
 }
 
-#carouselMain {
+ #carouselMain {
     padding-bottom: 10%;
-}
+ }
 
-.carousel-inner {
-    padding-top: 10%;
-    padding-right: 11%;
-    padding-left: 13%;
-}
+ .carousel-inner {
+     padding-top: 10%;
+     padding-right: 11%;
+     padding-left: 13% ;
+ }
 
 .carousel-indicators {
-    color: red;
+    color:red;
 }
 
-.carousel-indicators li {
+.carousel-indicators li{
     background-color: #FFE465;
     width: 10px;
     height: 10px;
@@ -219,7 +219,7 @@ p {
 }
 
 .followUs {
-    padding-bottom: 1%;
+    padding-bottom:1%;
 }
 
 .followUs img {
