@@ -1,9 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-.container {
-    display: grid;
-    width: 100%;
-}
 #welcomeTitle {
     font-family: 'Cinzel Decorative', cursive;
     font-size: 56px;
@@ -27,28 +23,23 @@
     color: white;
 }
 
-.logoPadding {
-    height:50%;
-    padding-top: 1%;
+.roosterLogo {
+    padding: 2% 0 10% 15%;
+  
 }
+
 // generic button styles
 .roosterButton{
     height: 55px;
     width: 172px;
     border: none;
     color: white;
-}
-.roosterButton{
-    height: 55px;
-    width: 172px;
-    border: none;
-    color: white;
+    background-color: purple;
 }
 
-#welcomeButton:hover {
-    background-color: purple;
-    margin-left: 10%;
-    margin-top: 10%;
+
+.roosterButton:hover {
+    opacity: 65%;
 }
 
 // generic title paragraph styling
