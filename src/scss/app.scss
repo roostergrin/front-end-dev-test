@@ -1,13 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
 
 p {
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Raleway', sans-serif;
 }
 
 #welcomeTitle {
     font-family: 'Monoton', cursive;
-    font-size: 81px;
+    font-size: 3.5rem;
     text-align: center;
     animation: fadeIn ease 5s;
 }
@@ -15,7 +15,7 @@ p {
 .welcomeRooster {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 6px;
-    font-size: 80px;
+    font-size: 3rem;
     text-align: center;
     animation: fadeIn ease 10s;
 }
@@ -26,14 +26,14 @@ p {
 
 .welcomeBackground {
     background: url(/front-end-dev-test-assets/hero.jpg) no-repeat;
-    height: 1055px;
+    height: 800px;
     width: 100%;
     background-size: cover;
     color: white;
 }
 
 .roosterLogo {
-    padding: 2% 0 10% 15%;
+    padding: 2% 0 8% 10%;
 }
 
 // generic button styles
@@ -50,12 +50,13 @@ p {
 }
 
 #welcomeButton {
-    margin-top: 5%;
-    margin-left: 20%;
+    margin-top: 7%;
+    margin-left: 12%;
 }
+
 // generic title paragraph styling
 .roosterTitleParagraph {
-    padding: 7% 10% 0% 11%;
+    padding: 7% 6% 0% 16%;
 }
 
 // generic description styling
@@ -65,8 +66,10 @@ p {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
+
 #section4Title {
     color: black;
+    padding-top: 10%;
 }
 
 // generic direct link
@@ -83,7 +86,7 @@ p {
 
 // generic banner styling
 .roosterBanner {
-    height: 800px;
+    height: 600px;
 }
 
 .section3Banner{
@@ -92,25 +95,28 @@ p {
 }
 
 .section3Content {
-    padding: 17% 0 0 22%;
+    padding: 16% 0 0 10%;
 }
+
 .section5Banner {
     background: url(/front-end-dev-test-assets/banner-2.jpg) no-repeat;
     background-size: cover;
 }
 
 .section5Content {
-    margin-top: 13%;
-    padding-right: 20%;
+    margin-top: 6%;
+    padding-right: 10%;
+    padding-left: 5%;
 }
 
-#section5Title {
-    font-size: 58px;
+#section5Title, #section3Title {
+    font-size: 2.5rem;
 }
-#bannerButton {
+
+.bannerButton {
     background-color: orange;
     color: white;
-    margin-top: 7%;
+    margin-top: 4%;
 }
 
 .roosterIcon {
@@ -126,8 +132,9 @@ p {
 
 .roosterIconContainer p {
     margin-top: 6%;
-    font-size: 20px;
+    font-size: 18px;
 }
+
 .roosterIcon img {
     height: 62px;
     width: 70px;
@@ -135,9 +142,9 @@ p {
     margin-left: 5%;
     display: inline-block
 }
+
 .roosterIconContainer{
 text-align: center;
-
 }
 
 .roosterIcon img:hover {
@@ -150,54 +157,53 @@ text-align: center;
 }
 
 .section4IconRow {
-    padding-top: 10%;;
+    padding-top: 10%;
 }
 
 #section6Title {
-    padding-right: 5;
+    color: black;
+    padding-right: 15%;
+    padding-top: 5%;
 }
 
-.carousel-indicators, #carouselMain{
+ #carouselMain {
+    padding-bottom: 10%;
+ }
+
+ .carousel-inner {
+     padding-top: 10%;
+     padding-right: 11%;
+     padding-left: 13% ;
+ }
+
+.carousel-indicators {
     color:red;
-    margin: 15%;
 }
 
 .carousel-indicators li{
-    background-color: black;
+    background-color: #FFE465;
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  background-size: 100%, 100%;
-  background-image: none;
-}
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color:purple;
-  padding: 100%;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: purple;
+.carousel-control-prev-icon::after {
+    color: purple;
 }
 
 .carousel-item h5 {
     padding-bottom: 5%;
     text-align: center;
+    color: purple;
+    font-family: 'Raleway', sans-serif;
 }
 
-.followUs p {
-    text-align: center;
+.followUsTitle {
+    padding-left: 4%;
+}
+
+.followUs {
+    padding-bottom:1%;
 }
 
 .followUs img {
@@ -205,5 +211,10 @@ text-align: center;
     border: none;
     border-radius: 0;
     height: 60px;
-    padding: 3%
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+footer {
+    background-color: #FAFAFA;
 }
