@@ -10,7 +10,8 @@ module.exports = {
 	},
 	watch: true,
 	devServer: {
-		inline: true
+		inline: true,
+		port: process.env.PORT
 	},
 	//Add sass-loader
 	module: {
