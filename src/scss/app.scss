@@ -120,7 +120,7 @@ p {
 }
 
 .roosterIcon {
-    border: 3px solid purple;
+    border: 1px solid purple;
     height: 100px;
     width: 102px;
     max-width: unset;
@@ -128,6 +128,7 @@ p {
     border-radius: 50%;
     padding-top: 3%;
     display: inline-block;
+ 
 }
 
 .roosterIconContainer p {
@@ -139,10 +140,22 @@ p {
     height: 62px;
     width: 70px;
     margin-top: 10%;
-    margin-left: 5%;
-    display: inline-block
+    margin-left: 4%;
+    display: inline-block;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+
 }
 
+@keyframes slidein {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
 .roosterIconContainer{
 text-align: center;
 }
