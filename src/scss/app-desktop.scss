@@ -37,7 +37,7 @@ p {
 }
 
 // generic button styles
-.roosterButton{
+.roosterButton {
     height: 55px;
     width: 172px;
     border: none;
@@ -89,7 +89,7 @@ p {
     height: 600px;
 }
 
-.section3Banner{
+.section3Banner {
     background: url(/front-end-dev-test-assets/banner-1.jpg) no-repeat;
     background-size: cover;
 }
@@ -109,7 +109,8 @@ p {
     padding-left: 5%;
 }
 
-#section5Title, #section3Title {
+#section5Title,
+#section3Title {
     font-size: 2.5rem;
 }
 
@@ -128,7 +129,7 @@ p {
     border-radius: 50%;
     padding-top: 3%;
     display: inline-block;
- 
+
 }
 
 .roosterIconContainer p {
@@ -152,12 +153,14 @@ p {
     from {
         width: 0%;
     }
+
     to {
         width: 100%;
     }
 }
-.roosterIconContainer{
-text-align: center;
+
+.roosterIconContainer {
+    text-align: center;
 }
 
 .roosterIcon img:hover {
@@ -179,21 +182,21 @@ text-align: center;
     padding-top: 5%;
 }
 
- #carouselMain {
+#carouselMain {
     padding-bottom: 10%;
- }
-
- .carousel-inner {
-     padding-top: 10%;
-     padding-right: 11%;
-     padding-left: 13% ;
- }
-
-.carousel-indicators {
-    color:red;
 }
 
-.carousel-indicators li{
+.carousel-inner {
+    padding-top: 10%;
+    padding-right: 11%;
+    padding-left: 13%;
+}
+
+.carousel-indicators {
+    color: red;
+}
+
+.carousel-indicators li {
     background-color: #FFE465;
     width: 10px;
     height: 10px;
@@ -216,7 +219,7 @@ text-align: center;
 }
 
 .followUs {
-    padding-bottom:1%;
+    padding-bottom: 1%;
 }
 
 .followUs img {

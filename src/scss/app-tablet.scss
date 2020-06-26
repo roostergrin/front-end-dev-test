@@ -1,22 +1,33 @@
-@media (max-width: 1024px){
-  .roosterTitleParagraph {
-      padding-left: 6%;
-      padding-top: 5%;
-  }
-  .teamworkPicture {
-      height: 400px;
-  }
-  .roosterBanner {
-    height: 400px;
-}
-.roosterGroupIcons {
-    padding: 2%;
-    padding-left: 10%
-}
-#section6Title {
-    padding-right: 1%;
-}
-.followUsTitle {
-    padding-left: 6%;
-}
+@media (min-width: 376px) and (max-width: 1024px) {
+    #welcomeButton {
+        margin: 0;
+        margin-top: 10%;
+        margin-left: 44%;
+    }
+
+    .roosterTitleParagraph {
+        padding-left: 6%;
+        padding-top: 5%;
+    }
+
+    .teamworkPicture {
+        height: 400px;
+    }
+
+    .roosterBanner {
+        height: 400px;
+    }
+
+    .roosterGroupIcons {
+        padding: 2%;
+        padding-left: 10%
+    }
+
+    #section6Title {
+        padding-right: 1%;
+    }
+
+    .followUsTitle {
+        padding-left: 6%;
+    }
 }
