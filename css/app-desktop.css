@@ -1,5 +1,3 @@
-@import "~bootstrap/scss/bootstrap";
-
 p {
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
@@ -25,7 +23,7 @@ p {
 }
 
 .welcomeBackground {
-    background: url(/front-end-dev-test-assets/hero.jpg) no-repeat;
+    background: url(../front-end-dev-test-assets/hero.jpg) no-repeat;
     height: 800px;
     width: 100%;
     background-size: cover;
@@ -36,8 +34,8 @@ p {
     padding: 2% 0 8% 10%;
 }
 
-// generic button styles
-.roosterButton{
+/* generic button styles */
+.roosterButton {
     height: 55px;
     width: 172px;
     border: none;
@@ -54,12 +52,12 @@ p {
     margin-left: 12%;
 }
 
-// generic title paragraph styling
+/* generic title paragraph styling */
 .roosterTitleParagraph {
     padding: 7% 6% 0% 16%;
 }
 
-// generic description styling
+/* generic description styling */
 .roosterDescriptionTitle {
     padding-bottom: 5%;
     color: purple;
@@ -72,25 +70,25 @@ p {
     padding-top: 10%;
 }
 
-// generic direct link
+/* generic direct link */
 .roosterDirectLink {
     padding-top: 5%;
     color: purple;
 }
 
 .teamworkPicture {
-    background: url(/front-end-dev-test-assets/img-1.jpg) no-repeat;
+    background: url(../front-end-dev-test-assets/img-1.jpg) no-repeat;
     height: 600px;
     background-size: cover;
 }
 
-// generic banner styling on section 3 and seciont 5
+/* generic banner styling on section 3 and seciont 5 */
 .roosterBanner {
     height: 600px;
 }
 
-.section3Banner{
-    background: url(/front-end-dev-test-assets/banner-1.jpg) no-repeat;
+.section3Banner {
+    background: url(../front-end-dev-test-assets/banner-1.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -99,7 +97,7 @@ p {
 }
 
 .section5Banner {
-    background: url(/front-end-dev-test-assets/banner-2.jpg) no-repeat;
+    background: url(../front-end-dev-test-assets/banner-2.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -109,7 +107,8 @@ p {
     padding-left: 5%;
 }
 
-#section5Title, #section3Title {
+#section5Title,
+#section3Title {
     font-size: 2.5rem;
 }
 
@@ -128,24 +127,25 @@ p {
     border-radius: 50%;
     padding-top: 3%;
     display: inline-block;
- 
+
 }
+
 .roosterIcon:hover {
-    border-radius: 250px 750px 250px 750px /
-    750px 250px 750px 250px;
-    animation: wobble 1s ease-in-out alternate infinite
+    border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+    animation: wobble 1s ease-in-out alternate infinite;
+    cursor: pointer;
 }
 
 @keyframes wobble {
     50% {
-        border-radius:750px 550px 350px 750px /
-        350px 750px 550px 450px;
+        border-radius: 750px 550px 350px 750px / 350px 750px 550px 450px;
     }
+
     100% {
-        border-radius: 750px 250px 750px 250px /
-        250px 750px 250px 750px;
+        border-radius: 750px 250px 750px 250px / 250px 750px 250px 750px;
     }
 }
+
 .roosterIconContainer p {
     margin-top: 6%;
     font-size: 18px;
@@ -159,8 +159,8 @@ p {
     display: inline-block;
 }
 
-.roosterIconContainer{
-text-align: center;
+.roosterIconContainer {
+    text-align: center;
 }
 
 .roosterIcon:hover img {
@@ -182,21 +182,21 @@ text-align: center;
     padding-top: 5%;
 }
 
- #carouselMain {
+#carouselMain {
     padding-bottom: 10%;
- }
-
- .carousel-inner {
-     padding-top: 10%;
-     padding-right: 11%;
-     padding-left: 13% ;
- }
-
-.carousel-indicators {
-    color:red;
 }
 
-.carousel-indicators li{
+.carousel-inner {
+    padding-top: 10%;
+    padding-right: 11%;
+    padding-left: 13%;
+}
+
+.carousel-indicators {
+    color: red;
+}
+
+.carousel-indicators li {
     background-color: #FFE465;
     width: 10px;
     height: 10px;
@@ -219,7 +219,7 @@ text-align: center;
 }
 
 .followUs {
-    padding-bottom:1%;
+    padding-bottom: 1%;
 }
 
 .followUs img {

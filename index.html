@@ -7,14 +7,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Raleway:wght@400;600&display=swap"
     rel="stylesheet">
 
-  <script type="text/javascript" src="bundle.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
   </script>
-
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="./css/app-desktop.css">
+  <link rel="stylesheet" href="./css/app-mobile.css">
+  <link rel="stylesheet" href="./css/app-tablet.css">
 </head>
 
 <body>
@@ -22,7 +28,7 @@
   <!-- Section 1 -->
   <div class="container-fluid welcomeBackground">
     <div class="row roosterLogo">
-      <img src="/front-end-dev-test-assets/logo-white.svg" alt="Welcome to RoosterGrin Logo">
+      <img src="./front-end-dev-test-assets/logo-white.svg" alt="Welcome to RoosterGrin Logo">
     </div>
 
     <div class="row">
@@ -39,7 +45,8 @@
       <div class="col-lg-5 col-md-4"></div>
 
       <div class="col-md-2">
-        <button class="roosterButton" id="welcomeButton" onclick="window.location.href='#section2'">BUTTON BUTTON</button>
+        <button class="roosterButton" id="welcomeButton" onclick="window.location.href='#section2'">BUTTON
+          BUTTON</button>
       </div>
 
       <div class="col-md-5"></div>
@@ -60,7 +67,9 @@
           in ac quam. Duis et, non arcu imperdiet sem tellus suspendisse. Condimentum non aliquet sed, quisque risus
           vitae semper duis feugiat .</p>
 
-        <a href="#section3"><h5 class="roosterDirectLink"> > Lorem ipsum </h5></a>
+        <a href="#section3">
+          <h5 class="roosterDirectLink"> > Lorem ipsum </h5>
+        </a>
       </div>
 
       <div class="col-md-6 teamworkPicture">
@@ -90,21 +99,23 @@
         <p>Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna est sociis, neque in odio vel, sit
           lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula..</p>
 
-        <a href="#section5"><h5 class="roosterDirectLink"> > Lorem ipsum </h5></a>
+        <a href="#section5">
+          <h5 class="roosterDirectLink"> > Lorem ipsum </h5>
+        </a>
       </div>
 
       <div class="col-md-6 roosterGroupIcons">
         <div class="row section4IconRow">
           <div class="col-md-4 roosterIconContainer">
             <div class="roosterIcon">
-              <img src="/front-end-dev-test-assets/home-expertise.svg" alt="home-expertise">
+              <img src="./front-end-dev-test-assets/home-expertise.svg" alt="home-expertise">
             </div>
             <p>LOREM</p>
           </div>
           <div class="col-lg-3 col-md-1"></div>
           <div class="col-4 roosterIconContainer">
             <div class="roosterIcon">
-              <img src="/front-end-dev-test-assets/home-hygiene.svg" alt="home-hygiene">
+              <img src="./front-end-dev-test-assets/home-hygiene.svg" alt="home-hygiene">
             </div>
             <p>LOREM IPSUM</p>
           </div>
@@ -112,7 +123,7 @@
         <div class="row section4IconRow">
           <div class="col-4 roosterIconContainer">
             <div class="roosterIcon">
-              <img src="/front-end-dev-test-assets/home-lab.svg" alt="home-lab">
+              <img src="./front-end-dev-test-assets/home-lab.svg" alt="home-lab">
             </div>
 
             <p>LOREM IPSUM</p>
@@ -120,7 +131,7 @@
           <div class="col-lg-3 col-md-1"></div>
           <div class="col-md-4 roosterIconContainer">
             <div class="roosterIcon">
-              <img src="/front-end-dev-test-assets/home-retention.svg" alt="home-retention">
+              <img src="./front-end-dev-test-assets/home-retention.svg" alt="home-retention">
             </div>
             <p>LOREM</p>
           </div>
@@ -142,7 +153,7 @@
             fugiat. Sit vitae deleniti error modi itaque consectetur consequuntur repellendus alias. Aperiam deserunt
             nesciunt quasi eaque.</p>
 
-          <button class="roosterButton bannerButton"  onclick="window.location.href='#section6'">BUTTON BUTTON</button>
+          <button class="roosterButton bannerButton" onclick="window.location.href='#section6'">BUTTON BUTTON</button>
         </div>
       </div>
     </div>
@@ -307,9 +318,9 @@
       <div class="col-lg-2 col-md-3 followUs">
 
         <a href="http://www.instagram.com">
-          <img src="/front-end-dev-test-assets/instagram.svg" alt="Visit us at Instagram"></a>
+          <img src="./front-end-dev-test-assets/instagram.svg" alt="Visit us at Instagram"></a>
 
-        <a href="http://www.facebook.com"><img src="/front-end-dev-test-assets/facebook.svg"
+        <a href="http://www.facebook.com"><img src="./front-end-dev-test-assets/facebook.svg"
             alt="Visit us at Facebook"></a>
 
       </div>
