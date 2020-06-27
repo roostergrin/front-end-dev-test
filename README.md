@@ -1,5 +1,8 @@
 # front-end-dev-test
 
+## Link to Annie Luc's RoosterGrin Project
+https://luckytiger18.github.io/front-end-dev-test.io
+
 ## Intro
 
 Congratulations on making it to the testing phase of the hiring process! For this part, we would like to learn about your creativity, how well you code, and how well you follow instructions.
@@ -68,7 +71,12 @@ These required features are requested specifically by the client and should be i
 ### *Please also submit a small write up discussing (leave answers to a sentence or two):*
 
   1. What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
+   * For this project, I simply used HTML, CSS, Bootstrap, and JS. I decided not to use a larger framework just to keep it simple. For larger projects, I would look into using something like React. 
+  
   2. Any struggles you faced when developing with technology you chose
+   * For the most part it was getting familiar with Bootstrap grid system and getting items in the right place. This didn’t allow me enough time to deploy a production-grade http server like Express.js. Instead, I deployed the raw files with github pages.
+  
   3. What you enjoyed the most and why
+   * What I really enjoyed was adding animations to the icons. I was able to make the border wobble when you hover over the icons. I really enjoyed the experience learning the grid systems and implementing a client’s idea. Thanks again! 
 
 If you have any questions please feel free to email me (Matt) at matt.sprague@roostergrin.com
