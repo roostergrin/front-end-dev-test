@@ -4,7 +4,7 @@ p {
 }
 
 #welcomeTitle {
-    font-family: 'Monoton', cursive;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 3.5rem;
     text-align: center;
     animation: fadeIn ease 5s;
@@ -18,19 +18,15 @@ p {
     animation: fadeIn ease 10s;
 }
 
-#welcomeTo {
-    margin-top: 10%;
-}
-
 .welcomeBackground {
-    background: url(../front-end-dev-test-assets/hero.jpg) no-repeat;
+    background: url(../front-end-dev-test-assets/IMG_3230.jpg) no-repeat;
     height: 800px;
     width: 100%;
     background-size: cover;
     color: white;
 }
 
-.roosterLogo {
+.popcornLogo img {
     padding: 2% 0 8% 10%;
 }
 
@@ -60,7 +56,7 @@ p {
 /* generic description styling */
 .roosterDescriptionTitle {
     padding-bottom: 5%;
-    color: purple;
+    color: rgb(39, 28, 6);
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
@@ -73,13 +69,12 @@ p {
 /* generic direct link */
 .roosterDirectLink {
     padding-top: 5%;
-    color: purple;
+    color: orange;
 }
 
 .teamworkPicture {
-    background: url(../front-end-dev-test-assets/img-1.jpg) no-repeat;
+    background: url(../front-end-dev-test-assets/IMG_3499.JPG) no-repeat;
     height: 600px;
-    background-size: cover;
 }
 
 /* generic banner styling on section 3 and seciont 5 */
@@ -88,7 +83,7 @@ p {
 }
 
 .section3Banner {
-    background: url(../front-end-dev-test-assets/banner-1.jpg) no-repeat;
+    background: url(../front-end-dev-test-assets/outside.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -97,14 +92,13 @@ p {
 }
 
 .section5Banner {
-    background: url(../front-end-dev-test-assets/banner-2.jpg) no-repeat;
-    background-size: cover;
+    background: url(../front-end-dev-test-assets/sleep.jpg) no-repeat;
 }
 
 .section5Content {
     margin-top: 6%;
-    padding-right: 10%;
-    padding-left: 5%;
+    /* padding-right: 10%;
+    padding-left: 5%; */
 }
 
 #section5Title,
