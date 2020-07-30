@@ -8,6 +8,10 @@ p {
     font-size: 3.5rem;
     text-align: center;
     animation: fadeIn ease 5s;
+    color: black;
+}
+#welcomeTo {
+    padding-top: 200px;
 }
 
 .welcomeRooster {
@@ -16,13 +20,14 @@ p {
     font-size: 3rem;
     text-align: center;
     animation: fadeIn ease 10s;
+    color: black;
 }
 
 .welcomeBackground {
-    background: url(../front-end-dev-test-assets/IMG_3230.jpg) no-repeat;
+    background: url(../front-end-dev-test-assets/IMG_3523.jpg) no-repeat;
     height: 800px;
     width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
     color: white;
 }
 
@@ -37,6 +42,7 @@ p {
     border: none;
     color: white;
     background-color: purple;
+    border-radius: 10px;
 }
 
 .roosterButton:hover {
@@ -121,7 +127,11 @@ p {
     border-radius: 50%;
     padding-top: 3%;
     display: inline-block;
+}
 
+i {
+    height: 100px;
+    width: 102px;
 }
 
 .roosterIcon:hover {
@@ -146,8 +156,8 @@ p {
 }
 
 .roosterIcon img {
-    height: 62px;
-    width: 70px;
+    height: 70px;
+    width: 80px;
     margin-top: 10%;
     margin-left: 4%;
     display: inline-block;
