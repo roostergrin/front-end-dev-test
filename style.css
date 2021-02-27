@@ -23,11 +23,21 @@
   h2 {
       text-align: center;
       font-size: 70px;
-
+      animation-name: example;
+      animation-duration: 5s;
   }
- p {
+ .colorChange{
       font-weight: 200;
-      
+      animation-name: example;
+      animation-duration: 5s;  
+     /*  animation: gradient 15s ease infinite; */
+      animation-iteration-count: 13;  
+  }
+  @keyframes example {
+    0%   {color:#ee7752;}
+    25%  {color: #e73c7e;}
+    50%  {color: #23a6d5;}
+    100% {color: #23d5ab;}
   }
   
   
