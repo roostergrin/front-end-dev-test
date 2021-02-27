@@ -11,7 +11,7 @@
     color:white;
     padding-top: 250px; 
     box-sizing: border-box;
-    -webkit-animation: slide 45s linear infinite;
+    -webkit-animation: slide 120s linear infinite;
   }
 
   .hero-bkg-animated {
@@ -25,10 +25,15 @@
       font-size: 70px;
 
   }
+ p {
+      font-weight: 200;
+      
+  }
+  
   
   @-webkit-keyframes slide {
       from { background-position: 0 0; }
-      to { background-position: -400px 0; }
+      to { background-position: -300px 0; }
   }
 
   .btn {
@@ -93,7 +98,7 @@
   }
   
   .box {
-    background: var(--primary);
+    /* background: var(--primary); */
     text-align: center;
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
@@ -105,7 +110,7 @@
     grid-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem;
-    height: 110vh;
+    height: 95vh;
     padding: 60px;
     margin-bottom: 20px;
     text-align: center;
@@ -129,6 +134,7 @@
       background: url(./src/assets/img-1.jpg) no-repeat center;
       height: 67vh;
     }
+
 /* testimonials */
     .testimonials {
         background: url(./src/assets/banner-2.jpg) no-repeat center center;
@@ -163,7 +169,7 @@
         font-size: 44px;
         text-align: right;
         font-weight: 900;
-        margin-bottom: 20px;
+        margin-bottom: 20px;   
       }
       .testimonial-p {
         color: #5A3F71;
@@ -319,8 +325,8 @@
         from {opacity: .4}
         to {opacity: 1}
       }
+    }
 
-/* FOOTER */
       .footer {
         height: 17vh;
         background: whitesmoke;
@@ -342,14 +348,13 @@
       .footer__text {
         text-align: center;
         font-weight: 900;
-        color:#5A3F71 ;
-        margin-top: 25px;
+        color: #5A3F71;
       }
       
       .footer__icons {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex;
+        
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
@@ -360,8 +365,9 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
+      
         width: 50px;
-        margin: 10px;
+        display: inline;
         -webkit-transition: 0.2s ease;
         transition: 0.2s ease;
       }
