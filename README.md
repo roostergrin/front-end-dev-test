@@ -68,7 +68,13 @@ These required features are requested specifically by the client and should be i
 ### *Please also submit a small write up discussing (leave answers to a sentence or two):*
 
   1. What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
+  This was a fun project! I've been trying to do things without using any framework lately. For this project, I've used pure CSS, animations and transitions. While, I was not able to follow the provided template completely, but it was a pleasure to work on this project. 
+
   2. Any struggles you faced when developing with technology you chose
+  I missed Bootstrap and Materialize for styling grids. Having things done without any framework, was definitely challenging but developer community is great to ask help from. 
+
   3. What you enjoyed the most and why
+
+  I enjoyed the freedom of technologies in this challenge. 
 
 If you have any questions please feel free to email me (Matt) at matt.sprague@roostergrin.com
