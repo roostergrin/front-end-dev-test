@@ -3,7 +3,7 @@
     margin: 0;
 }
 .hero-bkg-animated {
-    background: gray url("./src/assets/hero.jpg") no-repeat center;
+    background:url("./src/assets/hero.jpg") no-repeat center;
     max-width: 100%;
     margin: 0;
     /* text-align: center; */
@@ -11,7 +11,7 @@
     color:white;
     padding-top: 250px; 
     box-sizing: border-box;
-    -webkit-animation: slide 120s linear infinite;
+    -webkit-animation: /* slide */ 120s linear infinite;
   }
 
   .hero-bkg-animated {
@@ -25,13 +25,14 @@
       font-size: 70px;
       animation-name: example;
       animation-duration: 5s;
+      animation-iteration-count: infinite;
   }
  .colorChange{
       font-weight: 200;
       animation-name: example;
       animation-duration: 5s;  
      /*  animation: gradient 15s ease infinite; */
-      animation-iteration-count: 13;  
+      animation-iteration-count: infinite;  
   }
   @keyframes example {
     0%   {color:#ee7752;}
@@ -387,4 +388,16 @@
                 transform: scale(1.075);
       }
 
-    
+      @media only screen and (max-width: 600px) {
+        .info {
+            height: 110vh;
+        }
+
+      }
+
+      @media only screen and (max-width: 600px) {
+        .reviewstest {
+            padding: 15px;
+        }
+
+      }
