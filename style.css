@@ -335,10 +335,9 @@
         to {opacity: 1}
       }
     }
-
+    
       .footer {
-        height: 17vh;
-        background: #ddd;
+        height: 20vh; 
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -355,6 +354,8 @@
       }
       
       .footer__text {
+         
+        padding-top: 10px;
         text-align: center;
         font-weight: 900;
         color: #5A3F71;
