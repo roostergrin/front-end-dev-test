@@ -3,12 +3,384 @@
     padding: 0;
 }
 
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    height: 64vh;
+    width: 100%;
+    background-image: url("/front-end-dev-test-assets/hero.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.rooster-grin {
+    width: 20%;
+    padding: 3% 7%;
+}
+
+header h1, h2 {
+    text-align: center;
+}
+
+.header-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(223, 19, 223);
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-1-button {
+    position: relative;
+    top: 60%;
+    left: 20%;
+    transform: translate(-5rem, 15rem);
+    -ms-transform: translate(-5rem, 15rem);
+    background-color: #ff8300;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-1-button-text {
+    position: relative;
+    top: 60%;
+    left: 20%;
+    transform: translate(-5rem, 15rem);
+    -ms-transform: translate(-5rem, 15rem);
+    font-size: xx-large;
+}
+
+.banner-2-button {
+    position: relative;
+    left: 45rem;
+    transform: translate(-5rem, 15rem);
+    -ms-transform: translate(-5rem, 15rem);
+    background-color: #ff8300;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-2-button-text {
+    position: relative;
+    top: 60%;
+    left: 45rem;
+    transform: translate(-5rem, 15rem);
+    -ms-transform: translate(-5rem, 15rem);
+    font-size: xx-large;
+}
+
+h3,  p, figcaption {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner-1, .banner-2 {
+    height: 58vh;
+}
+
+.banner-2 img {
+    height: 58vh;
+}
+
+.split-banner-1, 
+.split-banner-2, 
+.split-banner-3 {
+    width: 100%;
+    height: 44vh;
+    display: flex;
+}
+
+.split-banner-1-first-article {
+    width: 30%;
+    padding: 10%;
+}
+
+.split-banner-1-second-article {
+    width: 60%;
+}
+
+.banner-1 .banner-1-article img, 
+.banner-2 .banner-2-article img {
+    width: 100%;
+}
+
+.split-banner-1-second-article img {
+    width: 100%;
+}
+
+.split-banner-2-first-article {
+    width: 30%;
+    padding: 10%;
+}
+
+.split-banner-2-second-article {
+    width: 60%;
+    background-color: #faf9f6; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.split-banner-2 .split-banner-2-second-article figure img {
+    width: 40%;
+}
+
+.split-banner-2 .split-banner-2-second-article figure {
+    text-align: center;
+    padding: 15%;
+}
+
+.split-banner-3-first-article {
+    width: 40%;
+    padding: 10%;
+}
+
+.split-banner-3-second-article {
+    width: 50%;
+}
+
+.stars {
+    color: #ff8300;
+}
+
+footer {
+    height: 20vh;
+    width: 100%;
+    background-color: #f2eef9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons img {
+    text-align: center;
+    width: 10%;
+}
+
+/* Carousel CSS */
+.split-banner-3-second-article {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    border: solid 1px #2c2c2c;
+}
+
+.slide_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide_img img {
+    width: 100%;
+    height: 100%;
+}
+
+#i1, #i2, #i3 {
+    display: none;
+}
+
+.pre, .nxt {
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.pre {
+    left: 0;
+}
+
+.nxt {
+    right: 0;
+}
+
+.nav {
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.dots {
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: yellow;
+}
+
+.slide_img {
+    z-index: -1;
+}
+
+#i1:checked ~ #one, 
+#i2:checked ~ #two, 
+#i3:checked ~ #three {
+    z-index: 9;
+}
+
+#i1:checked ~ .nav #dot1, 
+#i2:checked ~ .nav #dot2, 
+#i3:checked ~ .nav #dot3 {
+    background: #fff;
+}
 
 /* media queries for smaller viewports */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
 
+    header {
+        height: 24vh;
+        width: 100%;
+    }
+
+    .rooster-grin {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    .header-button {
+        top: 15%;
+        left: 50%;
+        padding: 2% 4%;
+    }
+
+    .banner-1-button, .banner-2-button{
+        display: none;
+    }
+
+    h1, h2 {
+        display: none;
+    }
+
+    h3, p {
+        font-size: larger;
+    }
+
+    .split-banner-1, .split-banner-2, .split-banner-3 {
+        height: 10%;
+        width: 100%;
+    }
+
+    .split-banner-1, .split-banner-2, .split-banner-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-1, .banner-2 {
+        height: 24vh;
+    }
+
+    .banner-2 img {
+        height: 24vh;
+    }
+
+    .split-banner-1-first-article, 
+    .split-banner-2-first-article {
+        width: fit-content;
+        /*margin-top: 10%;
+        padding: 0 10% 10%;*/
+    }
+
+    .split-banner-2-second-article {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .split-banner-2-second-article figure img {
+        width: 30%;
+    }
+
+    .split-banner-2-second-article figure {
+        text-align: center;
+        margin: 5%;
+    }
+
+    .split-banner-1-second-article img {
+        display: none;
+    }
+
+    .banner-1 .banner-1-article img, 
+    .banner-2 .banner-2-article img {
+        width: 100%;
+    }
+
+    .split-banner-3-first-article {
+        margin-top: 15%;
+        padding: 0 10% 10%;
+    }
+
+    .stars {
+        color: #ff8300;
+        font-size: x-large;
+    }
+
+    .dots {
+        margin: 0 15px;
+    }
+
+    footer {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    footer p {
+        font-size: large;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .social-icons {
+        margin: 5%;
+    }
+
+    .social-icons img {
+        width: 20%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -28,5 +400,5 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+
 }

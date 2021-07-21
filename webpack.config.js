@@ -19,6 +19,21 @@ module.exports = {
         test: /\.html$/,
         loader: "html-loader"
       },
+	  {
+        test: /\.svg/,
+        loader: "svg-url-loader"
+      },
+	  {
+		  test: /\.(png|jpg|gif)$/i,
+		  use: [
+			  {
+				  loader: 'url-loader', 
+				  options: {
+					  limit: 8192,
+				  }
+			  }
+		  ]
+	  },
 			{
 				test: /\.(scss)$/,
 				use: [{
