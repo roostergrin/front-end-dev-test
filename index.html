@@ -9,46 +9,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Welcome to Rooster Grin</title>
     <meta name="description" content="front-end test site">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="container">
-      <header>
-        <img class="rooster-grin" src="front-end-dev-test-assets/logo-white.svg">
-        <h1>WELCOME TO</h1>
-        <h2>Rooster Grin</h2>
-        <button class="header-button">BUTTON BUTTON</button>
-      </header>
+    <div id="container">
+      <div class="head-section">
+        <header>
+          <img class="rooster-grin" src="front-end-dev-test-assets/logo-white.svg">
+          <h1>WELCOME TO</h1>
+          <h2>Rooster Grin</h2>
+          <button id="open-popup-modal" class="header-button btn">BUTTON BUTTON</button>
+          <div id="popup-modal" class="modal">
+            <div class="modal-content animated bounce">
+              <a class="modal-close">x</a>
+              <div class="modal-text">
+                <h2>Thank you for checkng us out!</h2>
+                <p>Subscribe to our newsletter and stay updated 
+                  on our latest news.
+                </p>
+              </div>
+              <div class="modal-footer"></div>
+            </div>
+          </div>
+        </header>
+      </div>
+    <div class="content-section">
+
       <section class="split-banner-1">
-        <article class="split-banner-1-first-article">
-          <h3>LOREM IPSUM</h3>
-          <p>Lorem ipsum dolor sit amet, et felis integer. Cras ac, 
-            duis nisl magna est sociis, neque in odio vel, sit 
-            lobortis erat. Fugit quam, ut pede ut ante, in viverra 
-            eros dictum nisl ligula, lacus est vehicula donec. 
-            Quam in ac quam. Duis et, non arcu imperdiet sem
-            tellus suspendisse. Condimentum non aliquet sed, 
-            quisque risus vitae semper duis feugiat.</p>
-        </article>
-        <article class="split-banner-1-second-article">
-          <img src="front-end-dev-test-assets/img-1.jpg">
-        </article>
+          <article class="split-banner-1-first-article">
+            <h3>LOREM IPSUM</h3>
+            <p>Lorem ipsum dolor sit amet, et felis integer. Cras ac, 
+              duis nisl magna est sociis, neque in odio vel, sit 
+              lobortis erat. Fugit quam, ut pede ut ante, in viverra 
+              eros dictum nisl ligula, lacus est vehicula donec. 
+              Quam in ac quam. Duis et, non arcu imperdiet sem
+              tellus suspendisse. Condimentum non aliquet sed, 
+              quisque risus vitae semper duis feugiat.</p>
+          </article>
+          <article class="split-banner-1-second-article">
+          </article>
       </section>
+
       <section class="banner-1">
         <article class="banner-1-article">
-          <h3 class="banner-1-button-text">LOREM IPSUM</h3>
-          <button class="banner-1-button">BUTTON BUTTON</button>
-          <img src="front-end-dev-test-assets/banner-1.jpg">
+            <h3 class="banner-1-button-text">LOREM IPSUM</h3>
+            <button class="banner-1-button">BUTTON BUTTON</button>
         </article>
       </section>
+
       <section class="split-banner-2">
         <article class="split-banner-2-first-article">
-          <h3>LOREM IPSUM DOLOR SIT AMET</h3>
-          <p>Lorem ipsum dolor sit amet, et felis integer. Cras ac, 
+            <h3>LOREM IPSUM DOLOR SIT AMET</h3>
+            <p>Lorem ipsum dolor sit amet, et felis integer. Cras ac, 
             duis nisl magna est sociis, neque in odio vel, sit 
             lobortis erat. Fugit quam, ut pede ut ante, in viverra 
             eros dictum nisl ligula, lacus est vehicula donec. 
@@ -57,29 +73,35 @@
             quisque risus vitae semper duis feugiat.</p>
         </article>
         <article class="split-banner-2-second-article">
-          <figure id="home-expertise">
-            <img src="/front-end-dev-test-assets/home-expertise.svg" alt="Clipboard icon">
+            <figure class="home-expertise">
+              <img src="/front-end-dev-test-assets/home-expertise.svg" alt="Clipboard icon">
             <figcaption>LOREM</figcaption>
-          </figure>
-          <figure id="home-hygiene">
-            <img src="/front-end-dev-test-assets/home-hygiene.svg" alt="Medical face cover icon">
+            </figure>
+            <figure class="home-hygiene">
+              <img src="/front-end-dev-test-assets/home-hygiene.svg" alt="Medical face cover icon">
             <figcaption>LOREM IPSUM</figcaption>
-          </figure>
-          <figure id="home-lab">
-            <img src="/front-end-dev-test-assets/home-lab.svg" alt="Goggles icon">
+            </figure>
+            <figure class="home-lab">
+              <img src="/front-end-dev-test-assets/home-lab.svg" alt="Goggles icon">
             <figcaption>LOREM IPSUM</figcaption>
-          </figure>
-          <figure id="home-retention">
-            <img src="/front-end-dev-test-assets/home-retention.svg" alt="Calendar icon">
+            </figure>
+            <figure class="home-retention">
+              <img src="/front-end-dev-test-assets/home-retention.svg" alt="Calendar icon">
             <figcaption>LOREM</figcaption>
-          </figure>
+            </figure>
         </article>
       </section>
       <section class="banner-2">
         <article class="banner-2-article">
-          <h3 class="banner-2-button-text">LOREM IPSUM</h3>
-          <button class="banner-2-button">BUTTON BUTTON</button>
-          <img src="/front-end-dev-test-assets/banner-2.jpg">
+        <h3 class="banner-2-button-text">LOREM IPSUM</h3>
+        <p class="banner-2-button-text-p">Lorem ipsum dolor sit amet, et felis integer. Cras ac, 
+          duis nisl magna est sociis, neque in odio vel, sit 
+          lobortis erat. Fugit quam, ut pede ut ante, in viverra 
+          eros dictum nisl ligula, lacus est vehicula donec. 
+          Quam in ac quam. Duis et, non arcu imperdiet sem
+          tellus suspendisse. Condimentum non aliquet sed, 
+          quisque risus vitae semper duis feugiat.</p>
+        <button class="banner-2-button">BUTTON BUTTON</button>
         </article>
       </section>
       <section class="split-banner-3">
@@ -91,7 +113,7 @@
           <input type="radio" name="images" id="i1" checked>
           <input type="radio" name="images" id="i2">
           <input type="radio" name="images" id="i3">
-
+    
           <div class="slide_img" id="one">
             <img src="https://preview.ibb.co/iFGxZv/img_1.jpg">
             <label for="i3" class="pre"></label>
@@ -107,7 +129,7 @@
             <label for="i2" class="pre"></label>
             <label for="i1" class="nxt"></label>
           </div>
-
+    
           <div class="nav">
             <label class="dots" id="dot1" for="i1"></label>
             <label class="dots" id="dot2" for="i2"></label>
@@ -115,15 +137,19 @@
           </div>
         </article>
       </section>
-      <footer>
-        <p>Follow Us:</p>
-        <div class="social-icons">
-          <img src="front-end-dev-test-assets/instagram.svg">
-          <img src="front-end-dev-test-assets/facebook.svg">
-        </div>
-      </footer>
+      </div>
+      <div id="footer-section">
+        <footer>
+          <p>Follow Us:</p>
+          <div class="social-icons">
+            <img src="front-end-dev-test-assets/instagram.svg">
+            <img src="front-end-dev-test-assets/facebook.svg">
+          </div>
+        </footer>
+      </div>
     </div>
     
     <script type="text/javascript" src="bundle.js"></script>
+    <script type="text/javascript" src="modal.js"></script>
   </body>
 </html>
