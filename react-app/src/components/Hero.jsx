@@ -1,8 +1,16 @@
-import React from 'react'
+import HeroImage from '../front-end-dev-test-assets/hero.jpg'
 
 const Hero = () => {
     return (
-        <div>Hero</div>
+        <div 
+            className='hero-image'
+            style={{
+                backgroundImage: `url(${HeroImage})`,
+                backgroundSize: `cover`,
+            }}
+        >
+            Hero
+        </div>
     )
 }
 

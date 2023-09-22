@@ -8,6 +8,10 @@ import {
 //components imports
 import Hero from './components/Hero';
 
+//css file imports
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/hero.css'
+
 function App() {
 
 return (
