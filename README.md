@@ -71,4 +71,4 @@ These required features are requested specifically by the client and should be i
   2. Any struggles you faced when developing with technology you chose
   3. What you enjoyed the most and why
 
-If you have any questions please feel free to email me (Sebastian) at sebastian@roostergrin.com
+If you have any questions please feel free to email me (Sam) at sam.tweedy@roostergrin.com
